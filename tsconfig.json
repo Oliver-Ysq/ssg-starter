@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ESNext" /* 一般我们使用其他打包工具，这个选项配置最新版本的 JS 即可 */,
+    "module": "ESNext" /* Specify what module code is generated. */,
+    // "rootDir": "src" /* 编译入口 */,
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx"
+  },
+  "files": ["./tsup.config.ts"],
+  "include": ["src"]
+}
