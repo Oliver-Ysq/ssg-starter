@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Editor directories
+.DS_Store
+
+# Smalfish temp files
+.sml
+types/
+
+# Smallfish H5 build files
+mobile.config.js
+dist/
+www/
+_dist/
+_package/
